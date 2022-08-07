@@ -72,13 +72,16 @@ textarea {
     flex-direction: row;
     margin: 0 0 5px 0;
     align-items: center;
-    animation: piscar 1s linear infinite alternate;
+
+
 }
 
 .info p {
+
+
     font-size: 12px;
     color: #495057;
-    margin: 0 0 0 5px;
+    margin: 0 auto;
     animation: piscar 1s linear infinite alternate;
 }
 
@@ -110,10 +113,11 @@ h3 {
 }
 
 .buttons {
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .button {
@@ -236,9 +240,15 @@ footer {
         bottom: 0px;
 }
 
+.footer p {
+    text-transform: uppercase;
+    text-align: center;
+    color: #132438;
+    margin: 20px 0;
+}
 footer a {
     text-decoration: none;
-    color: #0A3871;
+    color: #132438;
 }
 
 .redes-sociais a img {
@@ -247,6 +257,7 @@ footer a {
     height: 30px;
     border-radius: 100%;
     padding: 4px;
+    color: #132438;
 }
 
 
