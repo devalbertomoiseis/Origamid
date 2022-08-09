@@ -1,0 +1,53 @@
+body, ul {
+    margin: 0px;
+    padding: 0px;
+    color: var(--white-colors-text);
+    background-color: var(--colors-background);
+}
+
+.background{
+
+    width: 100%;
+}
+
+div header a{
+    text-decoration: none;
+}
+
+header a.logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--colors-principal);
+}
+
+#header {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    padding: 4rem 1rem;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu li {
+    padding: 0.4rem 1rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+    color:var(--white-colors-text);
+    font-weight: 200;
+}
+
+#btn-mobile {
+    display: block;
+}
