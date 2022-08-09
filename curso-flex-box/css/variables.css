@@ -6,8 +6,9 @@
   --gray-colors-300: #393c40;
   --gray-colors-400: #5c6066;
   --gray-colors-800: #f7f8fa;
+
   --white: #fff;
 
   --colors-principal: #e7e7e7;
-  --colors-background: #640000;
+  --colors-background: #7a1313; /* #640000;*/
 }
