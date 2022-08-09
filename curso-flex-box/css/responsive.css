@@ -15,24 +15,33 @@
       display: block;
       position: absolute;
       width: 100%;
-      top: 70px;
+      top: 90px;
       right: 0px;
-      background: #c70c12;
+      background: var(--colors-background);
       transition: .6s;
       z-index: 1000;
       height: 0px;
       visibility: hidden;
       overflow-y: hidden;
+      text-align: center;
+
   }
   #nav.active #menu {
       height: calc(100vh - 70px);
       visibility: visible;
       overflow-y: auto;
+
   }
+  .menu-selected{
+    background-color: var(--colors-background);
+    border-radius: 5px;
+    color: var(--colors-principal) !important;
+    }
+
   #menu a {
       padding: 1rem 0;
       margin: 0 1rem;
-      border-bottom: 2px solid #d32b31
+      border-bottom: 1px solid rgb(204, 204, 204);
   }
   #btn-mobile {
       display: flex;
@@ -68,6 +77,7 @@
       transform: rotate(-135deg);
       top: -7px;
   }
+
 
 }
 

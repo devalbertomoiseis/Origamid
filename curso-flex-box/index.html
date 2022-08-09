@@ -1,164 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <link href="styles/patterns.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/patterns.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <head>
+    <link href="styles/patterns.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/patterns.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     <title>Projeto FlexBox</title>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <div class="background">
-        <header class="container" id="header">
-            <a class="logo" href="">ALBASALGADOS</a>
-            <nav id="nav">
-                <div id="btn-mobile">
-                    <span id="hamburguer"></span>
-                </div>
-                <ul id="menu">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="index.html">Sobre</a></li>
-                    <li><a href="index.html">Serviços</a></li>
-                    <li><a href="index.html">Cardápio</a></li>
-                    <li><a href="index.html">Contato</a></li>
-                </ul>
-
-            </nav>
-        </header>
+      <header class="container" id="header">
+        <a class="logo" href="">ALBASALGADOS</a>
+        <nav id="nav">
+          <div id="btn-mobile">
+            <span id="hamburguer"></span>
+          </div>
+          <ul id="menu">
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="index.html">Serviços</a></li>
+            <li><a href="index.html">Contato</a></li>
+            <li><a href="index.html"><span class="menu-selected"> Cardápio</span></a></li>
+          </ul>
+        </nav>
+      </header>
     </div>
-    <h1 class="introducao">Novos valores e<br>Propriedades de CSS</h1>
+    <main>
+        <div class="container">
+            <h1 class="introducao">Tudo que vê precisa para sua festa!</h1>
+            <p>
+                Salgados assados, fritos e congelados - Tanto para sua festa
+            </p>
+        </div>
+    </main>
 
-	<section class="sobre" id="sobre">
-		<div class="sobre-info">
-			<h1>Sobre</h1>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
-		</div>
-		<div class="sobre-img">
-			<img src="img/sobre1.jpg" alt="Sobre 1">
-		</div>
-		<div class="sobre-img">
-			<img src="img/sobre2.jpg" alt="Sobre 2">
-		</div>
-	</section>
+    <section class="sobre" id="sobre">
+      <div class="sobre-info">
+        <h1>Sobre</h1>
+        <p>
+          São 10 anos produzindo os melhores salgados da região, a empresa Alba
+          Salgados nasceu para inovar o ramo de salgados comuns e finos.
+          Buscamos sempre a satisfação de nossos clientes, por isso, tentamos
+          sempre aprimorar nossos produtos de acordo com as tendências do
+          mercado e proporcionando qualidade e sabor. Nosso estabelecimento
+          segue todas as normas de higiene estabelecidas, garantindo um produto
+          de alto nível para consumo. 
+        </p>
+      </div>
+      <div class="sobre-img">
+        <img src="img/sobre1.jpg" alt="Sobre 1" />
+      </div>
+      <div class="sobre-img">
+        <img src="img/sobre2.jpg" alt="Sobre 2" />
+      </div>
+    </section>
 
-	<section class="produtos" id="produtos">
-		<h1>Produtos</h1>
-		<div class="produtos-container">
-			<div class="produtos-item purple">
-				<h2>Purple</h2>
-				<img src="img/produtos1.jpg" alt="Produtos 1">
-			</div>
-			<div class="produtos-item pink">
-				<h2>Pink</h2>
-				<img src="img/produtos2.jpg" alt="Produtos 2">
-			</div>
-			<div class="produtos-item blue">
-				<h2>Blue</h2>
-				<img src="img/produtos3.jpg" alt="Produtos 3">
-			</div>
-		</div>
-	</section>
+    <section class="produtos" id="produtos">
+      <h1>Produtos</h1>
+      <div class="produtos-container">
+        <div class="produtos-item purple">
+          <h2>Purple</h2>
+          <img src="img/produtos1.jpg" alt="Produtos 1" />
+        </div>
+        <div class="produtos-item pink">
+          <h2>Pink</h2>
+          <img src="img/produtos2.jpg" alt="Produtos 2" />
+        </div>
+        <div class="produtos-item blue">
+          <h2>Blue</h2>
+          <img src="img/produtos3.jpg" alt="Produtos 3" />
+        </div>
+      </div>
+    </section>
 
-	<section class="preco" id="preco">
-		<div class="preco-item">
-			<h2>Cobre</h2>
-			<span><sup>R$</sup>19</span>
-			<ul>
-				<li>Planos Ilimitados</li>
-				<li>Acesso Restrito</li>
-				<li>Conteúdo Secreto</li>
-				<li>Suporte 24h</li>
-			</ul>
-			<a href="#">Comprar</a>
-		</div>
+    <!-- QUebra-->
+    <div class="container">
+      <p>
+        “Sempre se aprimorando para te atender com mais sabor, amor, respeito e
+        um elevado padrão de qualidade e higiene... Faça Seu Pedido!”
+      </p>
+    </div>
+    <section class="preco" id="preco">
+      <div class="serviço-itens">
+        <h2>Visão</h2>
+        <span><sup>R$</sup>19</span>
+        <ul>
+          <p>
+            Torna-se referência na comercialização e distribuição de salgados e doces para festas, proporcionando facilidade e satisfação para nossos clientes.
+          </p>
+        </ul>
+        <a href="#">Comprar</a>
+      </div>
 
-		<div class="preco-item">
-			<h2>Prata</h2>
-			<span><sup>R$</sup>39</span>
-			<ul>
-				<li>Planos Ilimitados</li>
-				<li>Acesso Restrito</li>
-				<li>Conteúdo Secreto</li>
-				<li>Suporte 24h</li>
-				<li>Compra Exclusiva</li>
-			</ul>
-			<a href="#">Comprar</a>
-		</div>
+      <div class="serviço-itens">
+        <h2>Missão</h2>
+        <span><sup>R$</sup>19</span>
+        <ul>
+          <p>
+            Proporcionar e garantir excelência nos serviços prestados, sempre oferecendo produtos de alta qualidade.
+          </p>
+        </ul>
+        <a href="#">Comprar</a>
+      </div>
 
-		<div class="preco-item">
-			<h2>Ouro</h2>
-			<span><sup>R$</sup>79</span>
-			<ul>
-				<li>Planos Ilimitados</li>
-				<li>Acesso Restrito</li>
-				<li>Conteúdo Secreto</li>
-				<li>Suporte 24h</li>
-				<li>Compra Exclusiva</li>
-				<li>Download dos Itens</li>
-			</ul>
-			<a href="#">Comprar</a>
-		</div>
-	</section>
+      <div class="serviço-itens">
+        <h2>Valores</h2>
+        <span><sup>R$</sup>19</span>
+        <ul>
+          <p>Valorizamos o comprometimento e a inovação em qualidade, motivando as pessoas através da integridade para o desenvolvimento pessoal.</p>
+        </ul>
+        <a href="#">Comprar</a>
+      </div>
+    </section>
 
-	<section class="qualidade" id="qualidade">
-		<div class="qualidade-item">
-			<h2>Inteligente</h2>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
-		</div>
+    <section class="qualidade" id="qualidade">
+      <div class="qualidade-item">
+        <h2>Inteligente</h2>
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão
+        </p>
+      </div>
 
-		<div class="qualidade-item">
-			<h2>Compacto</h2>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
-		</div>
+      <div class="qualidade-item">
+        <h2>Compacto</h2>
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão das condições
+          inegavelmente
+        </p>
+      </div>
 
-		<div class="qualidade-item">
-			<h2>Econômico</h2>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
-		</div>
+      <div class="qualidade-item">
+        <h2>Econômico</h2>
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão
+        </p>
+      </div>
 
-		<div class="qualidade-item">
-			<h2>Transparente</h2>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
-		</div>
+      <div class="qualidade-item">
+        <h2>Transparente</h2>
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão
+        </p>
+      </div>
 
-		<div class="qualidade-item">
-			<h2>Opaco</h2>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
-		</div>
+      <div class="qualidade-item">
+        <h2>Opaco</h2>
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão das condições
+          inegavelmente
+        </p>
+      </div>
 
-		<div class="qualidade-item">
-			<h2>Sustentável</h2>
-			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
-		</div>
-	</section>
+      <div class="qualidade-item">
+        <h2>Sustentável</h2>
+        <p>
+          O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão
+        </p>
+      </div>
+    </section>
 
-	<section class="newsletter">
-		<div class="newsletter-info">
-			<h1>Newsletter</h1>
-			<p>assine e fique por dentro das novidades</p>
-		</div>
-		<form class="newsletter-form">
-			<input type="text" placeholder="Seu e-mail">
-			<button type="submit">Assinar</button>
-		</form>
-	</section>
+    <section class="newsletter">
+      <div class="newsletter-info">
+        <h1>Newsletter</h1>
+        <p>assine e fique por dentro das novidades</p>
+      </div>
+      <form class="newsletter-form">
+        <input type="text" placeholder="Seu e-mail" />
+        <button type="submit">Assinar</button>
+      </form>
+    </section>
 
-	<footer class="footer">
-		<p>FlexBlog © Todos os direitos reservados.</p>
-	</footer>
+    <footer class="footer">
+      <p>FlexBlog © Todos os direitos reservados.</p>
+    </footer>
 
     <script src="js/javascript.js"></script>
-</body>
+  </body>
 </html>

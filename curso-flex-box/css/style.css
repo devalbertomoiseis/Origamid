@@ -1,7 +1,7 @@
 body, ul {
     margin: 0px;
     padding: 0px;
-    color: var(--white-colors-text);
+    color: var(--colors-principal);
     background-color: var(--colors-background);
 }
 
@@ -44,10 +44,42 @@ header a.logo {
 #menu a {
     display: block;
     padding: .5rem;
-    color:var(--white-colors-text);
+    color:var(--colors-principal);
     font-weight: 200;
+}
+
+.menu-selected{
+    color: var(--colors-background);
+    background-color: var(--colors-principal);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--colors-background);
 }
 
 #btn-mobile {
     display: block;
 }
+
+/* main */
+
+main{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+main .introducao{
+    text-align: center;
+    letter-spacing: 0.4rem;
+    color: var(--colors-background);
+}
+
+main p{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--colors-principal);
+    margin: 40px 0 0 0;
+}
+/*  */
