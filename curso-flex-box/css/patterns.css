@@ -20,3 +20,10 @@ h2{
 h3{
   font-size: 2.4rem;
 }
+
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
