@@ -33,6 +33,7 @@ p{
 }
 
 .titulo{
+
   font-size: 2.6rem;
   font-weight: bold;
   letter-spacing: 0.2rem;
@@ -45,6 +46,23 @@ p{
   height: 4px;
   width: 60px;
   background-color: var(--colors-background);
+  display: block;
+  margin: 10px auto;
+}
+
+.titulo-branco{
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: var(--colors-principal) !important;
+  text-align: center;
+}
+
+.titulo-branco::after{
+  content: " ";
+  height: 4px;
+  width: 60px;
+  background-color: var(--colors-principal);
   display: block;
   margin: 10px auto;
 }
