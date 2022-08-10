@@ -1,231 +1,160 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <link href="styles/patterns.css" rel="stylesheet" />
-    <link href="styles/main.css" rel="stylesheet" />
-    <link href="styles/style.css" rel="stylesheet" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/variables.css" />
-    <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="css/patterns.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
-    <title>Projeto FlexBox</title>
-  </head>
+<html>
+<head>
+	<title>FlexBlog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
 
-  <body>
-    <div class="background">
-      <header class="container" id="header">
-        <a class="logo" href="">ALBASALGADOS</a>
-        <nav id="nav">
-          <div id="btn-mobile">
-            <span id="hamburguer"></span>
-          </div>
-          <ul id="menu">
-            <li><a href="index.html">Sobre</a></li>
-            <li><a href="index.html">Serviços</a></li>
-            <li><a href="index.html">Contato</a></li>
-            <li><a href="index.html"><span class="menu-selected"> Cardápio</span></a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-    <main>
-        <div class="container">
-            <h1 class="introducao">Tudo que vê precisa para sua festa!</h1>
-            <p>
-                Salgados assados, fritos e congelados - Tanto para sua festa
-            </p>
-        </div>
-    </main>
+	<div class="superinfo-bg">
+		<div class="superinfo">
+			<p>Seg / Sex - 08:00 às 18:00</p>
+			<a href="tel:+552199999999">+55 21 9999-9999</a>
+			<p>Av. Ali Perto, 330, Botafogo - RJ</p>
+		</div>
+	</div>
+	
+	<header class="menu-bg">
+		<div class="menu">
+			<div class="menu-logo">
+				<a href="#">FlexBlog</a>
+			</div>
+			<nav class="menu-nav">
+				<ul>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#produtos">Produtos</a></li>
+					<li><a href="#preco">Preço</a></li>
+					<li><a href="#qualidade">Qualidade</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<h1 class="introducao">Novos valores e<br>Propriedades de CSS</h1>
+	
+	<section class="sobre" id="sobre">
+		<div class="sobre-info">
+			<h1>Sobre</h1>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+		</div>
+		<div class="sobre-img">
+			<img src="img/sobre1.jpg" alt="Sobre 1">
+		</div>
+		<div class="sobre-img">
+			<img src="img/sobre2.jpg" alt="Sobre 2">
+		</div>
+	</section>
+	
+	<section class="produtos" id="produtos">
+		<h1>Produtos</h1>
+		<div class="produtos-container">
+			<div class="produtos-item purple">
+				<h2>Purple</h2>
+				<img src="img/produtos1.jpg" alt="Produtos 1">
+			</div>
+			<div class="produtos-item pink">
+				<h2>Pink</h2>
+				<img src="img/produtos2.jpg" alt="Produtos 2">
+			</div>
+			<div class="produtos-item blue">
+				<h2>Blue</h2>
+				<img src="img/produtos3.jpg" alt="Produtos 3">
+			</div>
+		</div>
+	</section>
+	
+	<section class="preco" id="preco">
+		<div class="preco-item">
+			<h2>Cobre</h2>
+			<span><sup>R$</sup>19</span>
+			<ul>
+				<li>Planos Ilimitados</li>
+				<li>Acesso Restrito</li>
+				<li>Conteúdo Secreto</li>
+				<li>Suporte 24h</li>
+			</ul>
+			<a href="#">Comprar</a>
+		</div>
+		
+		<div class="preco-item">
+			<h2>Prata</h2>
+			<span><sup>R$</sup>39</span>
+			<ul>
+				<li>Planos Ilimitados</li>
+				<li>Acesso Restrito</li>
+				<li>Conteúdo Secreto</li>
+				<li>Suporte 24h</li>
+				<li>Compra Exclusiva</li>
+			</ul>
+			<a href="#">Comprar</a>
+		</div>
+		
+		<div class="preco-item">
+			<h2>Ouro</h2>
+			<span><sup>R$</sup>79</span>
+			<ul>
+				<li>Planos Ilimitados</li>
+				<li>Acesso Restrito</li>
+				<li>Conteúdo Secreto</li>
+				<li>Suporte 24h</li>
+				<li>Compra Exclusiva</li>
+				<li>Download dos Itens</li>
+			</ul>
+			<a href="#">Comprar</a>
+		</div>
+	</section>
+	
+	<section class="qualidade" id="qualidade">
+		<div class="qualidade-item">
+			<h2>Inteligente</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
+		</div>
+		
+		<div class="qualidade-item">
+			<h2>Compacto</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+		</div>
+		
+		<div class="qualidade-item">
+			<h2>Econômico</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
+		</div>
+		
+		<div class="qualidade-item">
+			<h2>Transparente</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
+		</div>
+		
+		<div class="qualidade-item">
+			<h2>Opaco</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+		</div>
+		
+		<div class="qualidade-item">
+			<h2>Sustentável</h2>
+			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
+		</div>
+		
+	</section>
+	
+	<section class="newsletter">
+		<div class="newsletter-info">
+			<h1>Newsletter</h1>
+			<p>assine e fique por dentro das novidades</p>
+		</div>
+		<form class="newsletter-form">
+			<input type="text" placeholder="Seu e-mail">
+			<button type="submit">Assinar</button>
+		</form>
+	</section>
+	
+	<footer class="footer">
+		<p>FlexBlog © Todos os direitos reservados.</p>
+	</footer>
 
-    <section class="sobre" id="sobre">
-      <h1 class="titulo">Sobre</h1>
-      <div class="container">
-        <p>
-          São 10 anos produzindo os melhores salgados da região, a empresa
-          <span>
-            Alba
-          Salgados
-          </span> nasceu para inovar o ramo de salgados comuns e finos.
-          Buscamos sempre a satisfação de nossos clientes, por isso, tentamos
-          sempre aprimorar nossos produtos de acordo com as tendências do
-          mercado e proporcionando qualidade e sabor.<br> Nosso estabelecimento
-          segue todas as normas de higiene estabelecidas, garantindo um produto
-          de alto nível para consumo. 
-        </p>
-        <img src="images/salgados.png" alt="Sobre 1" />
-      </div>
-
-    </section>
-
-    <section class="produtos" id="produtos">
-      <h1 class="titulo-branco">Produtos</h1>
-      <div class="container produtos-flex">
-        <div class="produtos-item">
-          <h2>Coxinha</h2>
-          <img src="images/salgados/1-coxinha.jpeg" alt="Produtos 1" />
-        </div>
-        <div class="produtos-item">
-          <h2>Empada</h2>
-          <img src="images/salgados/2-empadas.jpg" alt="Produtos 2" />
-        </div>
-        <div class="produtos-item">
-          <h2>Pasteis</h2>
-          <img src="images/salgados/3-pasteis.jpg" alt="Produtos 3" />
-        </div>
-
-        <div class="produtos-item ">
-          <h2>Bolinhas de Queijo</h2>
-          <img src="images/salgados/4-bolinhas.jpg" alt="Produtos 1" />
-        </div>
-        <div class="produtos-item">
-          <h2>Barquinhas de Frango</h2>
-          <img src="images/salgados/5-barquinha.jpg" alt="Produtos 2" />
-        </div>
-        <div class="produtos-item">
-          <h2>Pasteis de Camarão</h2>
-          <img src="images/salgados/6-pastel-camarao.jpg" alt="Produtos 3" />
-        </div>
-      </div>
-    </section>
-
-    <!-- QUebra-->
-    <section class="quebra">
-      <div class="container" >
-        <p>
-          “Sempre se aprimorando para te atender com mais sabor, amor, respeito e
-          um elevado padrão de qualidade e higiene... Faça Seu Pedido!”
-        </p>
-      </div>
-    </section>
-
-
-    <section class="servicos" id="preco">
-      <h1 class="titulo-branco">Serviços</h1>
-      <div class="container servicos-flex">
-        <div class="servicos-itens">
-          <h3>Visão</h3>
-          <p>
-            Torna-se referência na comercialização e distribuição de salgados e doces para festas, proporcionando facilidade e satisfação para nossos clientes.
-          </p>
-        </div>
-
-        <div class="servicos-itens">
-          <h3>Missão</h3>
-          <p>
-            Proporcionar e garantir excelência nos serviços prestados, sempre oferecendo produtos de alta qualidade.
-          </p>
-        </div>
-
-        <div class="servicos-itens">
-          <h3>Valores</h3>
-          <p>
-            Valorizamos o comprometimento e a inovação em qualidade, motivando as pessoas através da integridade para o desenvolvimento pessoal.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="cardapio">
-        <h1 class="titulo">Cardápio</h1>
-        <p class="cardapio-p">
-          São os melhores salgados da região Patos-Paraíba, e podemos provar!
-          É sério, fazemos salgados realmente incríveis, no sabor com tempero ideal.
-        </p>
-      <div class="container cardapio-flex">
-
-        <table>
-          <tr class="cardapio-td">
-            <td>Salgados Simples</td>
-            <td>Preços</td>
-          </tr>
-          <tr>
-            <td>Pastel Frito Carne</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel Frito Doce</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel Frito Frango</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel Frito Doce</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel de Doce com Leite</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel de Goiabada com Queijo</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel de Banana com Doce de Leite</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel de Forno de Frango</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Pastel de Forno Presunto com Queijo</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Canudo</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Empada</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Cigano</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Coxinha</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Bolinha de Frango com Bacon</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Bolinha de Queijo</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Risole</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Coxinha</td>
-            <td><span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-          <tr>
-            <td>Croquete de Frango com Bacon Provolone</td>
-            <td> <span class="cardapio-preco">R$ 60,00</span></td>
-          </tr>
-        </table>
-      </div>
-    </section>
-
-
-
-    <footer class="footer">
-      <p>Desenvolvido por @albertomoiseis</p>
-    </footer>
-
-    <script src="js/javascript.js"></script>
-  </body>
+</body>
 </html>
