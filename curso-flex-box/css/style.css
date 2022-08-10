@@ -182,7 +182,7 @@ main p {
 }
 
 .servicos-itens {
-  height: 30rem;
+  height: 35rem;
   padding: 2rem;
   margin: 4rem 0;
   border: 1px solid var(--colors-principal);
@@ -220,4 +220,43 @@ main p {
   padding: 60px 0;
   background-color: var(--colors-principal);
   color: var(--gray-colors-100);
+}
+
+.cardapio-p {
+  text-align: center;
+  max-width: 60rem;
+  margin: 4rem auto;
+}
+
+.cardapio table {
+    padding: 1rem 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cardapio-td {
+    padding: 1rem;
+    background-color: var(--colors-background);
+    color: var(--colors-principal);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cardapio table tr {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--colors-background);
+}
+
+.cardapio table tr td{
+    padding: 1.4rem 0;
+
+}
+.cardapio table tr td .cardapio-preco{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--colors-background);
+    color: var(--colors-principal);
 }
