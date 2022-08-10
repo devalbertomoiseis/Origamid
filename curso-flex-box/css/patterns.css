@@ -31,3 +31,20 @@ p{
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+.titulo{
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: var(--gray-colors-100) !important;
+  text-align: center;
+}
+
+.titulo::after{
+  content: " ";
+  height: 4px;
+  width: 60px;
+  background-color: var(--colors-background);
+  display: block;
+  margin: 10px auto;
+}

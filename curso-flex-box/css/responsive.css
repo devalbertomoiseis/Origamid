@@ -2,9 +2,18 @@
 }
 
 @media (max-width: 991px) {
+
+
+
 }
 
 @media (max-width: 768px) {
+  .sobre div {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
 }
 
 @media (max-width: 600px) {
