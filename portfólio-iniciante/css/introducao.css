@@ -1,0 +1,50 @@
+.introducao {
+  max-width: 99.6rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100%;
+}
+
+.introducao h1{
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 3rem;
+}
+
+.introducao h1:hover{
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 3rem;
+}
+
+.introducao p{
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+@media(max-width: 1000px){
+  .introducao h1{
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 800px){
+  .introducao{
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+  .introducao h1{
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 420px){
+  .introducao{
+    grid-template-columns: 1fr;
+  }
+  .introducao img{
+    display: none;
+  }
+}
