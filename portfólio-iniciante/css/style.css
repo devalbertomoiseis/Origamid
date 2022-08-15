@@ -3,20 +3,22 @@
 @import "../css/reset.css";
 @import "../css/experiencia.css";
 @import "../css/global.css";
+@import "../css/formacao.css";
+@import "../css/footer.css";
+@import "../css/sobre.css";
 
-body, ul {
-    margin: 0px;
-    padding: 0px;
-    color: var(--white-colors-text);
-    background-color: var(--colors-background);
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
-.background{
-    width: 100%;
+.background {
+  width: 100%;
+  background: var(--colors-background);
+  color: var(--white);
 }
 
-
-.cor {
-   color: rgb(119,227,197);
-font-size: 3rem;
+.cor{
+    color:  #61c39f;
 }

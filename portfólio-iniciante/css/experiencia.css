@@ -56,13 +56,13 @@
 }
 
 .empresa-titulo {
-  font-size: 1.125rem;
+  font-size: 1.6rem;
   line-height: 1.1;
   font-weight: bold;
 }
 
 .empresa-texto {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 1.4;
   color: #525252;
 }
@@ -72,14 +72,16 @@
   flex-wrap: wrap;
   gap: 10px;
   align-content: start;
+  padding: 1rem;
 }
 
 .empresa-habilidades li {
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 1.4;
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+  
 }
 
 @media (max-width: 800px) {
