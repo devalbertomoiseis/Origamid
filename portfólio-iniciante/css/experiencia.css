@@ -1,10 +1,19 @@
 .experiencia {
+  padding: 6rem 0;
+}
+
+.experiencia .container{
   max-width: 99.6rem;
   padding: 40px 20px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  justify-content: space-between;
   gap: 100px;
+}
+
+.experiencia h1{
+  text-align: center;
+  padding: 4rem 0;
 }
 
 .experiencia .subtitulo {
@@ -39,7 +48,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: #61c39f;
   position: absolute;
   top: 20px;
   left: -4px;
@@ -85,9 +94,23 @@
 }
 
 @media (max-width: 800px) {
-  .experiencia {
-    grid-template-columns: 1fr;
-    gap: 40px;
+  .experiencia .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .experiencia h1{
+    text-align: center;
+    padding: 0rem 0;
+  }
+
+  .experiencia-texto {
+    font-size: 1.8rem;
+    line-height: 1.33;
+    max-width: 60rem;
+    color: #525252;
   }
   .experiencia .subtitulo {
     color: #141414;

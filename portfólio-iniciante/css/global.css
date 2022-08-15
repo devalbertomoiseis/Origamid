@@ -30,6 +30,14 @@ img {
   max-width: 4ch;
 }
 
+.button{ 
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+  color: #61c39f;
+  background: #141414;
+  border: 1px solid #61c39f;
+}
+
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
