@@ -1,0 +1,7 @@
+.subtitulo{
+    font-size: 8rem;
+    word-break: break-all;/*Qubera Palavra*/
+    line-height: 1;
+    text-transform: uppercase;
+    max-width: 4ch;/*caracteres*/
+}
