@@ -1,0 +1,128 @@
+.servicos {
+  background: #141414;
+  color: #ffffff;
+  padding: 6rem 0 10rem 0;
+}
+
+.servicos .titulo{
+  text-align: center;
+  color: var(--colors-background);
+  font-size: 3rem;
+  padding: 2rem 0 4rem 0;
+}
+
+.servicos .titulo::after{
+  content: "";
+  height: 0.4rem;
+  width: 4rem;
+  display: block;
+  margin: 1rem auto;
+  background: #61c39f;
+}
+
+.servicos .subtitulo {
+  color: #000000;
+  max-width: 5ch;
+}
+
+.servicos-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.servicos-texto strong {
+  color: #ffffff;
+}
+
+.servicos-lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+
+.servicos-itens {
+  background: #2b2a2a;
+  padding: 2rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  
+}
+
+.servicos-tipo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin: 2rem 0 1rem 0;
+  color: #61c39f;
+  
+}
+
+.servicos-curso {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.servicos-curso::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: #61c39f;
+  position: absolute;
+  left: -24px;
+}
+
+.servicos-itens img {
+  height: 6rem;
+  width: 6rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .servicos .container .servicos-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding: 0 10rem;
+  }
+  .servicos .subtitulo {
+    color: #ffffff;
+  }
+  .servicos-texto {
+    font-size: 1.25rem;
+  }
+  .servicos-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .servicos .container .servicos-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 6rem;
+  }
+  .servicos .subtitulo {
+    color: #ffffff;
+  }
+  .servicos-texto {
+    font-size: 1.25rem;
+  }
+  .servicos-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
