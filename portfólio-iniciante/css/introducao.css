@@ -1,13 +1,13 @@
-.introducao{
+.introducao {
   padding: 8rem 0;
 }
 
-.introducao .container{
+.introducao .container {
   display: flex;
   justify-content: space-between;
 }
 
-.introducao h1{
+.introducao h1 {
   font-size: 4.5rem;
   font-weight: bold;
   line-height: 1.4;
@@ -16,22 +16,22 @@
   color: #141414;
 }
 
-.introducao h1::after{
-  content:"";
+.introducao h1::after {
+  content: "";
   display: block;
   width: 6rem;
   height: 0.6rem;
   margin: 1rem 0 0.2rem 0;
-  background:  #61c39f;
+  background: #61c39f;
 }
 
-.introducao p{
+.introducao p {
   font-size: 1.8rem;
   max-width: 50ch;
   color: #525252;
 }
 
-.introducao div .button{
+.introducao div .button {
   background: #61c39f;
   color: var(--colors-background);
 }
@@ -41,40 +41,38 @@
   max-width: 40%;
 }
 
-@media(max-width: 1000px){
-  .introducao h1{
+@media (max-width: 1000px) {
+  .introducao h1 {
     font-size: 4rem;
   }
 }
 
-@media(max-width: 800px){
-  .introducao .container{
+@media (max-width: 800px) {
+  .introducao .container {
     display: flex;
     justify-content: center;
     text-align: center;
   }
 }
 
-@media(max-width: 720px){
-  .introducao{
+@media (max-width: 720px) {
+  .introducao {
     gap: 4rem;
   }
-  .introducao h1{
+  .introducao h1 {
     font-size: 3.8rem;
   }
-  .introducao h1::after{
+  .introducao h1::after {
     margin: 1rem auto;
     background: #61c39f;
   }
-  .introducao img{
+  .introducao img {
     display: none;
   }
 }
 
-@media(max-width: 520px){
-
-  .introducao h1{
+@media (max-width: 520px) {
+  .introducao h1 {
     font-size: 3.6rem;
-  
   }
 }

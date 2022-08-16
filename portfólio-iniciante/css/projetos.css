@@ -2,20 +2,20 @@
   padding: 6rem 0;
 }
 
-.projetos .container{
+.projetos .container {
   display: flex;
   justify-content: space-between;
   gap: 100px;
 }
 
-.projetos .titulo{
+.projetos .titulo {
   text-align: center;
   color: var(--colors-principal);
   font-size: 3rem;
   padding: 2rem 0 4rem 0;
 }
 
-.projetos .titulo::after{
+.projetos .titulo::after {
   content: "";
   height: 0.4rem;
   width: 4rem;
@@ -80,12 +80,11 @@
   color: #525252;
 }
 
-.empresa-texto a{
+.empresa-texto a {
   font-size: 1.2rem;
   line-height: 1.4;
   color: #141414;
-  border-bottom:1px solid #141414;
-
+  border-bottom: 1px solid #141414;
 }
 .empresa-habilidades {
   display: flex;
@@ -101,7 +100,6 @@
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
-  
 }
 
 @media (max-width: 800px) {
@@ -112,7 +110,7 @@
     gap: 1rem;
   }
 
-  .projetos h1{
+  .projetos h1 {
     text-align: center;
     padding: 0rem 0;
   }

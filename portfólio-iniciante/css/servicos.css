@@ -4,14 +4,22 @@
   padding: 6rem 0 10rem 0;
 }
 
-.servicos .titulo{
+.servicos .titulo {
   text-align: center;
   color: var(--colors-background);
   font-size: 3rem;
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
-.servicos .titulo::after{
+.servicos .paragrafo {
+  text-align: center;
+  color: #a3a3a3;
+  font-size: 1.6rem;
+  padding: 1rem 0 6rem 0;
+  font-weight: 200px;
+}
+
+.servicos .titulo::after {
   content: "";
   height: 0.4rem;
   width: 4rem;
@@ -54,7 +62,6 @@
   flex-direction: column;
   flex: 1;
   text-align: center;
-  
 }
 
 .servicos-tipo {
@@ -63,7 +70,6 @@
   color: #a3a3a3;
   margin: 2rem 0 1rem 0;
   color: #61c39f;
-  
 }
 
 .servicos-curso {
@@ -90,7 +96,7 @@
 }
 
 @media (max-width: 800px) {
-  .servicos .container .servicos-lista{
+  .servicos .container .servicos-lista {
     display: flex;
     flex-direction: column;
     gap: 10rem;
@@ -109,7 +115,7 @@
 }
 
 @media (max-width: 520px) {
-  .servicos .container .servicos-lista{
+  .servicos .container .servicos-lista {
     display: flex;
     flex-direction: column;
     gap: 4rem;

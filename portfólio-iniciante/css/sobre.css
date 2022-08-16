@@ -1,33 +1,33 @@
-.sobre{
-    background: #141414;
-    padding: 8rem 0;
+.sobre {
+  background: #141414;
+  padding: 8rem 0;
 }
 
-.sobre .titulo{
-    text-align: center;
-    color: var(--colors-background);
-    font-size: 3rem;
-    padding: 0 0 4rem 0;
+.sobre .titulo {
+  text-align: center;
+  color: var(--colors-background);
+  font-size: 3rem;
+  padding: 0 0 4rem 0;
 }
 
-.sobre .titulo::after{
-    content: "";
-    height: 0.4rem;
-    width: 4rem;
-    display: block;
-    margin: 1rem auto;
-    background: var(--colors-background);
+.sobre .titulo::after {
+  content: "";
+  height: 0.4rem;
+  width: 4rem;
+  display: block;
+  margin: 1rem auto;
+  background: var(--colors-background);
 }
 
-.sobre .container{
-    display: flex;
-    justify-content: space-between;
-    gap: 10rem;
+.sobre .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
 }
 
 .sobre ul {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .sobre ul li {
@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 1000px) {
-  .sobre .container{
+  .sobre .container {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -60,7 +60,6 @@
   .sobre {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-
   }
   .sobre img {
     display: none;
@@ -83,7 +82,6 @@
     margin: 1rem auto;
     background: #141414;
   }
-  
 }
 
 @media (max-width: 520px) {
