@@ -55,10 +55,10 @@
           </div>
           <ul id="menu">
             <li><a href="index.html">Início</a></li>
-            <li><a href="index.html">Sobre</a></li>
-            <li><a href="index.html">Projetos</a></li>
-            <li><a href="index.html">Serviços</a></li>
-            <li><a href="index.html">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projeto">Projetos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato-button">Contato</a></li>
           </ul>
         </nav>
       </header>
@@ -68,13 +68,14 @@
         <div>
           <h1>ALBERTO MOISEIS</h1>
           <p>Desenvolvedor Web/AWS<br />& Freelancer</p>
-          <button class="button" href="">Projetos</button>
+          <a class="button" href="#projeto">Projetos</a>
         </div>
+
         <img src="images/coding.svg" alt="Foto Perfil" />
       </div>
     </main>
 
-    <section class="sobre">
+    <section id="sobre" class="sobre" aria-label="Sobre o Perfil">
       <h1 class="titulo">Sobre</h1>
       <div class="container">
         <ul>
@@ -92,13 +93,14 @@
             resultados.
           </li>
           <li>Patos - Paraíba</li>
-          <button class="button" href="">Projetos</button>
+          <li><a class="button" href="#contato-button">Contato</a></li>
         </ul>
+
         <img src="images/foto.jpg" alt="Foto Perfil" />
       </div>
     </section>
 
-    <section class="projetos" id="projetos" aria-label="Experiência">
+    <section class="projetos" id="projeto" aria-label="Projetos">
       <h1 class="titulo">Projetos</h1>
       <div class="container">
         <p class="projetos-texto">
@@ -144,11 +146,27 @@
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
+              <li>UI Design</li>
+              <li>SEO</li>
             </ul>
           </div>
-
           <div class="empresa">
             <span class="empresa-ano">03</span>
+            <h3 class="empresa-titulo">Barbearia</h3>
+            <span class="empresa-titulo">Barbearia - Alura</span>
+            <p class="empresa-texto">
+              Projeto Barbearia feito no curso de "html & css" da plataforma alura em parceria com oracle. Eu
+              trabalhei na criação do email marketing e também no HTML.
+            </p>
+            <ul class="empresa-habilidades">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>UI Design</li>
+            </ul>
+          </div>
+          <div class="empresa">
+            <span class="empresa-ano">04</span>
             <h3 class="empresa-titulo">Brafé</h3>
             <span class="empresa-titulo">Layout Curso - Origamid</span>
             <p class="empresa-texto">
@@ -166,7 +184,7 @@
       </div>
     </section>
 
-    <section class="servicos" aria-label="Formação">
+    <section class="servicos" aria-label="Serviços" id="servicos">
       <h1 class="titulo">Serviços</h1>
       <p class="paragrafo">
         Como posso te ajudar?<br />Se você precisa de um site, está no lugar
@@ -206,7 +224,7 @@
       </div>
     </section>
 
-    <footer class="footer" id="contato">
+    <footer class="footer" id="contato-button">
       <h1 class="titulo">Contato</h1>
       <p class="paragrafo">Vamos bater um papo?<br /><br /></p>
       <div class="container">

@@ -15,8 +15,9 @@
   text-align: center;
   color: #a3a3a3;
   font-size: 1.6rem;
-  padding: 1rem 0 6rem 0;
+  padding: 1rem 2rem 6rem 2rem;
   font-weight: 200px;
+  
 }
 
 .servicos .titulo::after {
@@ -131,4 +132,5 @@
     position: initial;
     margin-bottom: 10px;
   }
+
 }

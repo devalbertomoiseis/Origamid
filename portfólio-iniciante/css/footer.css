@@ -33,7 +33,7 @@
   font-size: 1.5rem;
   line-height: 1.33;
   color: var(--colors-principal);
-  padding-top: 0.3rem;
+  padding: 0.3rem 1rem;
 }
 
 .paragrafo {
@@ -47,7 +47,7 @@
   font-size: 1.6rem;
   line-height: 1.2;
   color: var(--colors-principal);
-  padding: 0.4rem 0;
+  padding: 0.4rem 1rem;
 }
 
 .footer-contato li a {
@@ -81,8 +81,9 @@
   .footer-contato li {
     font-size: 1.5rem;
   }
+
   .footer-texto {
-    padding: 0rem 0;
+    padding: 0rem 1rem;
   }
   .paragrafo {
     text-align: center;
