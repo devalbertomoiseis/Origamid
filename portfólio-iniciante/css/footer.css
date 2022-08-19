@@ -39,7 +39,7 @@
 .paragrafo {
   text-align: center;
   font-size: 1.6rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .footer-contato li {
@@ -70,6 +70,21 @@
   color: #61c39f;
   border-bottom: 1px solid #61c39f;
 }
+
+.footer-contato-icons{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-contato-icons a img{
+  height: 4rem;
+  width: 4rem;
+  padding: 0.5rem;
+  color: #141414;
+  margin-bottom: 2rem;
+}
+
+
 
 @media (max-width: 800px) {
   .footer .container {
