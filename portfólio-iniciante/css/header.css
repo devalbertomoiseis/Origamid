@@ -23,10 +23,12 @@ header a.logo {
   display: flex;
   list-style: none;
   gap: 0.5rem;
+  position: relative;
 }
 
 #menu li {
   padding: 0.4rem 1rem;
+
 }
 
 #menu a {
@@ -34,6 +36,22 @@ header a.logo {
   padding: 0.5rem;
   color: var(--colors-principal);
   font-weight: 300;
+  position: relative;
+}
+#menu a:hover{
+  color: #61c39f;
+}
+
+#menu a:hover:after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 90%;
+  color: #61c39f;
+  background: #61c39f;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
 }
 
 #btn-mobile {
@@ -98,5 +116,8 @@ header a.logo {
   #nav.active #hamburguer::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+  #menu a:hover:after{
+    display: none;
   }
 }

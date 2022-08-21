@@ -37,6 +37,13 @@
   color: var(--colors-background);
 }
 
+.introducao div .button.button-cor:hover {
+  color: #141414;
+  border: 1px solid #141414;
+  transition: 0.6s;
+  opacity: 0.8;
+}
+
 .introducao img {
   width: 100%;
   max-width: 40%;
