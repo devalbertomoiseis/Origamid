@@ -1,0 +1,12 @@
+button {
+  padding: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+}
+
+button.ativo {
+  background-color: tomato;
+  color: #fff;
+}
